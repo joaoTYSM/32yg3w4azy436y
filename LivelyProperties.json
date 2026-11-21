@@ -1,0 +1,100 @@
+{
+  "visualizerToggle": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show Audio Visualizer"
+  },
+  "visualizerOpacity": {
+    "type": "slider",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "text": "Audio Visualizer Opacity"
+  },
+  "visualizerHeight": {
+    "type": "slider",
+    "value": 1,
+    "min": 0.1,
+    "max": 3,
+    "step": 0.01,
+    "text": "Audio Visualizer Height Scale"
+  },
+  "visualizerColorMode": {
+    "type": "dropdown",
+    "value": 0,
+    "items": [
+      "Album Cover Colors",
+      "White Illusion",
+      "Spectrum",
+      "Based on Value",
+      "Custom Color"
+    ],
+    "text": "Audio Visualizer Color Mode"
+  },
+  "visualizerCustomColor": {
+    "type": "color",
+    "value": "#FFFFFF",
+    "text": "Audio Visualizer Custom Color"
+  },
+  "nowPlayingToggle": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show Now Playing"
+  },
+  "nowPlayingOpacity": {
+    "type": "slider",
+    "value": 0.8,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "text": "Now Playing Opacity"
+  },
+  "nowPlayingSize": {
+    "type": "slider",
+    "value": 1,
+    "min": 0.5,
+    "max": 3,
+    "step": 0.1,
+    "text": "Now Playing Size"
+  },
+  "nowPlayingCoverToggle": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show Album Cover in Now Playing"
+  },
+  "nowPlayingCoverSize": {
+    "type": "slider",
+    "value": 1,
+    "min": 0.5,
+    "max": 3,
+    "step": 0.1,
+    "text": "Album Cover Size in Now Playing"
+  },
+  "backgroundToggle": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show Album Cover related Background Colors"
+  },
+  "backgroundOpacity": {
+    "type": "slider",
+    "value": 0.25,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "text": "Background Colors Opacity"
+  },
+  "backgroundSaturation": {
+    "type": "slider",
+    "value": 0.5,
+    "min": 0,
+    "max": 1,
+    "step": 0.01,
+    "text": "Background Colors Saturation"
+  },
+  "debugMode": {
+    "type": "checkbox",
+    "value": false,
+    "text": "Enable Debug Mode"
+  }
+}

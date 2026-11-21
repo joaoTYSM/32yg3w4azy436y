@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #000000;
+  color: #ffffff;
+  z-index: -1;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 1;
+  background-color: transparent;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.audio-visualizer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 2;
+  background-color: transparent;
+}
+
+.now-playing {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-size: 1.2em;
+  z-index: 3;
+  transform-origin: bottom left;
+}
+
+.now-playing-text .now-playing-title {
+  font-weight: bold;
+  font-size: 1.05em;
+}
+
+.now-playing-cover {
+  transform-origin: bottom left;
+}
+
+.now-playing-cover img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.debug-console {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: #00ff00;
+  display: none;
+  white-space: pre-line;
+  max-height: min(80%, 800px);
+  overflow-y: auto;
+  z-index: 4;
+}
+
+.debug-colors {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: none;
+  z-index: 4;
+}
